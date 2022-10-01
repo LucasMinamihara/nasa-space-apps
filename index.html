@@ -5,14 +5,148 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nasa-Space-Apps</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Stress</title>
 </head>
 
 <body>
+    <header>
+        <h1>Nasa-Space-Apps 2022</h1>
+    </header>
+    <!-- First section about project -->
+    <section class="biologySuperHero">
+        <div class="projectName">
+            <h2>Project: Learning based on space projects</h2>
+            <p>In this project, we will show you how to solve the problems encountered in space. </p>
+            <p>To facilitate, we will use the data provided by <b> NASA</b> itself and show each situation that can
+                occur in the
+                life of a living being outside the terrestrial environment.</p>
+            <p>To make it even more realistic, we will allow users to be able to interact with the character showing
+                situations that he may come across and how to solve a certain problem.</p>
+
+        </div>
+        <div class="projectImage">
+            <img class="imageProject" src="src/build a space biology superhero.jpg" alt="biologySuperHero">
+        </div>
+    </section>
+    <!-- Second section more informations about our project -->
+
+    <section class="HazardHumanSpaceFlight">
+        <div class="hazardTitle">
+            <h2>
+                Information that was taken from NASA data and that will help in the development of the project.</h2>
+            <p>This information will be taken into account when developing our system</p>
+        </div>
+        <div class="hazardImage">
+            <img src="hazardHumanImage/2-img.png" alt="" class="hazard" id="radiation">
+            <img src="hazardHumanImage/3-img.png" alt="" class="hazard" id="isolation">
+            <img src="hazardHumanImage/4-img.png" alt="" class="hazard" id="distance">
+            <img src="hazardHumanImage/5-image.png" alt="" class="hazard" id="gravity">
+            <img src="hazardHumanImage/6-img.png" alt="" class="hazard" id="hostile">
+        </div>
+    </section>
+
+    <div class="modal radiation hidden">
+        <h3>Radiation</h3>
+        <p>The first hazard of a human mission to Mars is also the most difficult to visualize because, well, space
+            radiation is invisible to the human eye. Radiation is not only stealthy, but considered one of the most
+            menacing of the five hazards.</p>
+        <p>Above Earth’s natural protection, radiation exposure increases cancer risk, damages the central nervous
+            system, can alter cognitive function, reduce motor function and prompt behavioral changes. To learn what can
+            happen above low-Earth orbit, NASA studies how radiation affects biological samples using a ground-based
+            research laboratory.</p>
+        <p>The space station sits just within Earth’s protective magnetic field, so while our astronauts are exposed to
+            ten-times higher radiation than on Earth, it’s still a smaller dose than what deep space has in store.</p>
+        <p>To mitigate this hazard, deep space vehicles will have significant protective shielding, dosimetry, and
+            alerts. Research is also being conducted in the field of medical countermeasures such as pharmaceuticals to
+            help defend against radiation.</p>
+        <p class="esc">ESC TO LEAVE</p>
+    </div>
+    <div class="modal isolation hidden">
+        <h3>Isolation and confinement</h3>
+        <p>Behavioral issues among groups of people crammed in a small space over a long period of time, no matter how
+            well trained they are, are inevitable. Crews will be carefully chosen, trained and supported to ensure they
+            can work effectively as a team for months or years in space.</p>
+        <p>On Earth we have the luxury of picking up our cell phones and instantly being connected with nearly
+            everything and everyone around us. On a trip to Mars, astronauts will be more isolated and confined than we
+            can imagine. Sleep loss, circadian desynchronization, and work overload compound this issue and may lead to
+            performance decrements, adverse health outcomes, and compromised mission objectives.</p>
+        <p>To address this hazard, methods for monitoring behavioral health and adapting/refining various tools and
+            technologies for use in the spaceflight environment are being developed to detect and treat early risk
+            factors. Research is also being conducted in workload and performance, light therapy for circadian
+            alignment, phase shifting and alertness. </p>
+        <p class="esc">ESC TO LEAVE</p>
+    </div>
+    <div class="modal distance hidden">
+        <h3>Distance from Earth</h3>
+        <p>The third and perhaps most apparent hazard is, quite simply, the distance. Mars is, on average, 140 million
+            miles from Earth. Rather than a three-day lunar trip, astronauts would be leaving our planet for roughly
+            three years. While International Space Station expeditions serve as a rough foundation for the expected
+            impact on planning logistics for such a trip, the data isn’t always comparable. If a medical event or
+            emergency happens on the station, the crew can return home within hours. Additionally, cargo vehicles
+            continual resupply the crews with fresh food, medical equipment, and other resources. Once you burn your
+            engines for Mars, there is no turning back and no resupply.</p>
+        <p>Planning and self-sufficiency are essential keys to a successful Martian mission. Facing a communication
+            delay of up to 20 minutes one way and the possibility of equipment failures or a medical emergency,
+            astronauts must be capable of confronting an array of situations without support from their fellow team on
+            Earth.</p>
+        <p class="esc">ESC TO LEAVE</p>
+    </div>
+    <div class="modal gravity hidden">
+        <h3>Gravity (or lack thereof)</h3>
+        <p>The variance of gravity that astronauts will encounter is the fourth hazard of a human mission. On Mars,
+            astronauts would need to live and work in three-eighths of Earth’s gravitational pull for up to two
+            years. Additionally, on the six-month trek between the planets, explorers will experience total
+            weightlessness.</p>
+        <p>Besides Mars and deep space there is a third gravity field that must be considered. When astronauts
+            finally return home they will need to readapt many of the systems in their bodies to Earth’s gravity.
+            Bones, muscles, cardiovascular system have all been impacted by years without standard gravity. To
+            further complicate the problem, when astronauts transition from one gravity field to another, it’s
+            usually quite an intense experience. Blasting off from the surface of a planet or a hurdling descent
+            through an atmosphere is many times the force of gravity.</p>
+        <p>Research is being conducted to ensure that astronauts stay healthy before, during and after their
+            mission. NASA is identifying how current and future, FDA-approved osteoporosis treatments, and the
+            optimal timing for such therapies could be employed to mitigate the risk for astronauts developing
+            premature osteoporosis. Adaptability training programs and improving the ability to detect relevant
+            sensory input are being investigated to mitigate balance control issues. Research is ongoing to
+            characterize optimal exercise prescriptions for individual astronauts, as well as defining metabolic
+            costs of critical mission tasks they would expect to encounter on a Mars mission.
+        </p>
+        <p class="esc">ESC TO LEAVE</p>
+    </div>
+    <div class="modal hostile hidden">
+        <h3>Hostile/closed environments</h3>
+        <p>A spacecraft is not only a home, it’s also a machine. NASA understands that the ecosystem inside a
+            vehicle plays a big role in everyday astronaut life. Important habitability factors include temperature,
+            pressure, lighting, noise, and quantity of space. It’s essential that astronauts are getting the
+            requisite food, sleep and exercise needed to stay healthy and happy.</p>
+        <p>Technology, as often is the case with out-of-this-world exploration, comes to the rescue in creating a
+            habitable home in a harsh environment. Everything is monitored, from air quality to possible microbial
+            inhabitants. Microorganisms that naturally live on your body are transferred more easily from one person
+            to another in a closed environment. Astronauts, too, contribute data points via urine and blood samples,
+            and can reveal valuable information about possible stressors. The occupants are also asked to provide
+            feedback about their living environment, including physical impressions and sensations so that the
+            evolution of spacecraft can continue addressing the needs of humans in space. Extensive recycling of
+            resources we take for granted is also imperative: oxygen, water, carbon dioxide, even our waste.</p>
+        <p class="esc">ESC TO LEAVE</p>
+    </div>
+
+
+    <section class="videoSection">
+        <div class="divVIdeo">
+            <!-- video -->
+        </div>
+        <div class="textVideo">
+            <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum nemo, molestiae dolore repellat quia incidunt inventore repellendus eligendi fugiat sapiente magnam enim optio libero ab ex animi delectus totam esse.</p> -->
+        </div>
+    </section>
+    <footer>
+
+    </footer>
 
 
 
-    <h1></h1>
+    <script src="script.js"></script>
 </body>
 
 </html>
