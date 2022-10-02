@@ -28,6 +28,7 @@ h1 {
 h2 {
   margin-bottom: 30px;
 }
+
 p {
   margin-bottom: 10px;
 }
@@ -39,13 +40,17 @@ p {
   border-radius: 10px;
   margin-left: 100px;
 }
-/* tech section */
+/* sections section*/
 .HazardHumanSpaceFlight {
   margin-top: 100px;
   background-color: #0e7490;
   color: #ffffffff;
   display: flex;
   padding: 30px;
+}
+#explore {
+  width: 320px;
+  height: 180px;
 }
 .hazardTitle {
   align-self: center;
@@ -122,14 +127,37 @@ p {
 }
 @keyframes animationEscModal {
   0% {
+    opacity: 0;
     color: #0000;
   }
   99% {
+    opacity: 0;
     background-color: transparent;
     color: #0000;
   }
   100% {
+    opacity: 1;
     color: #000;
     background-color: #ffffffff;
   }
+}
+/* carrousel settings */
+.carousel-card {
+  margin-top: -30px;
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr;
+  justify-items: center;
+  gap: 20px;
+}
+.carousel-item > a > img {
+  width: 360px;
+  height: 180px;
+  border: 3px solid #ffffffff;
+  animation: animationEscModal 1s forwards;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+.carousel-item > a > img:hover {
+  width: 370px;
+  height: 185px;
 }

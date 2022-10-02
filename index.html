@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+
     <title>Stress</title>
 </head>
 
@@ -16,13 +17,14 @@
     <!-- First section about project -->
     <section class="biologySuperHero">
         <div class="projectName">
-            <h2>Project: Learning based on space projects</h2>
-            <p>In this project, we will show you how to solve the problems encountered in space. </p>
-            <p>To facilitate, we will use the data provided by <b> NASA</b> itself and show each situation that can
-                occur in the
-                life of a living being outside the terrestrial environment.</p>
-            <p>To make it even more realistic, we will allow users to be able to interact with the character showing
-                situations that he may come across and how to solve a certain problem.</p>
+            <h2>
+                The efficiency of microbiology</h2>
+            <p>
+                In this project we will show which problems encountered during a trip to space. </p>
+            <p>We will use the data collected by NASA itself to expose the risks that a human being faces when leaving
+                their natural habitat.</p>
+            <p>Finally, explaining scientific concepts, we will show how we can overcome this challenge and how our
+                "super hero" can help us in this mission.</p>
 
         </div>
         <div class="projectImage">
@@ -34,8 +36,12 @@
     <section class="HazardHumanSpaceFlight">
         <div class="hazardTitle">
             <h2>
-                Information that was taken from NASA data and that will help in the development of the project.</h2>
-            <p>This information will be taken into account when developing our system.</p>
+                Some information that was taken from NASA data to show the effects that a trip to space can have on a
+                human being.</h2>
+            <h2>
+                in the <span class="explore">explore</span> section, we show how we can solve this problem by showing
+                evidence that our theory makes
+                sense.</h2>
         </div>
         <div class="hazardImage">
             <img src="hazardHumanImage/2-img.png" alt="" class="hazard" id="radiation">
@@ -43,6 +49,7 @@
             <img src="hazardHumanImage/4-img.png" alt="" class="hazard" id="distance">
             <img src="hazardHumanImage/5-image.png" alt="" class="hazard" id="gravity">
             <img src="hazardHumanImage/6-img.png" alt="" class="hazard" id="hostile">
+            <img src="hazardHumanImage/src/explore.jpg" alt="" class="hazard" id="explore">
         </div>
     </section>
 
@@ -130,23 +137,38 @@
             resources we take for granted is also imperative: oxygen, water, carbon dioxide, even our waste.</p>
         <p class="esc">ESC TO LEAVE</p>
     </div>
-
-
-    <section class="videoSection">
-        <div class="divVIdeo">
-            <!-- video -->
+    <div class="modal explore hidden">
+        <div class="carousel-card">
+            <div class="carousel-item">
+                <a href="panspermia.html" target="_blank"><img src="hazardHumanImage/src/panspermia.png"></a>
+            </div>
+            <div class="carousel-item">
+                <a href="asteroids.html" target="_blank"><img src="hazardHumanImage/src/asteroids.png"></a>
+            </div>
+            <div class="carousel-item ">
+                <a href="extremophiles.html" target="_blank"><img src="hazardHumanImage/src/extremophiles.png"></a>
+            </div>
+            <div class="carousel-item">
+                <a href="deinococcus.html" target="_blank"><img src="hazardHumanImage/src/deinococcus.png"></a>
+            </div>
+            <div class="carousel-item">
+                <a href="radioprotection.html" target="_blank"><img src="hazardHumanImage/src/radioprotection.png"></a>
+            </div>
         </div>
-        <div class="textVideo">
-            <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum nemo, molestiae dolore repellat quia incidunt inventore repellendus eligendi fugiat sapiente magnam enim optio libero ab ex animi delectus totam esse.</p> -->
-        </div>
-    </section>
-    <footer>
-
-    </footer>
 
 
 
-    <script src="script.js"></script>
+
+        <section class="videoSection">
+            <div class="divVIdeo">
+                <!-- video -->
+            </div>
+            <div class="textVideo">
+                <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum nemo, molestiae dolore repellat quia incidunt inventore repellendus eligendi fugiat sapiente magnam enim optio libero ab ex animi delectus totam esse.</p> -->
+            </div>
+        </section>
+
+        <script src="script.js"></script>
 </body>
 
 </html>
