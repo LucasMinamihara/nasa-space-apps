@@ -71,6 +71,8 @@ p {
   margin: 10px;
   border-radius: 10px;
   transition: all 0.4s;
+  width: 320px;
+  height: 180px;
 }
 .hazardImage > img:hover {
   box-shadow: 0 10px 20px rgba(255, 255, 255, 1);
